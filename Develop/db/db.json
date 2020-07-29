@@ -1,2 +1,17 @@
-[{"title":"Test Title","text":"Test text"}]
-
+[
+  {
+    "id": "298281d8-304e-4f86-b209-1558cd4c7d28",
+    "title": "This is a newly saved note",
+    "text": "Hiyah!!\n"
+  },
+  {
+    "id": "4c455eeb-2369-4b06-884d-4ae5d46f3987",
+    "title": "And another newly saved note",
+    "text": "Hola!\n"
+  },
+  {
+    "id": "be026b78-b140-45af-bf97-1314034dca59",
+    "title": "And yet another one...",
+    "text": "Woo hoo!!"
+  }
+]
