@@ -29,7 +29,7 @@ Application should allow users to view previously saved notes.
 Application should allow users to delete previously saved notes.
 
 ## App Example
-![](screenshot_link)
+![](express-note-taker-app/Develop/Express_note_taker_app.gif)
 
 ## Deployed App
 
