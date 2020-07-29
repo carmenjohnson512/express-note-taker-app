@@ -1,4 +1,4 @@
-#### Carmen Johnson | Express Note Taker App
+# Carmen Johnson | Express Note Taker App
 
 Email: carmenjohnson512@gmail.com | LinkedIn: https://www.linkedin.com/in/carmenjohnson512/
 
