@@ -16,14 +16,14 @@ module.exports = function(app) {
       text: req.body.text
     };
 
-    fs.readFile("./db/db.json", "utf8", (err, data) => {
+    fs.readFile("Develop/db/db.json", "utf8", (err, data) => {
       if (err) throw err;
 
       const allNotes = JSON.parse(data);
 
       allNotes.push(newNote);
 
-      fs.writeFile("./db/db.json", JSON.stringify(allNotes, null, 2), err => {
+      fs.writeFile("Develop/db/db.json", JSON.stringify(allNotes, null, 2), err => {
         if (err) throw err;
         res.send(db);
         console.log("Note created!")
@@ -35,13 +35,13 @@ module.exports = function(app) {
 
     let noteId = req.params.id;
 
-    fs.readFile("./db/db.json", "utf8", (err, data) => {
+    fs.readFile("Develop/db/db.json", "utf8", (err, data) => {
       if (err) throw err;
 
       const allNotes = JSON.parse(data);
       const newAllNotes = allNotes.filter(note => note.id != noteId);
 
-      fs.writeFile("./db/db.json", JSON.stringify(newAllNotes, null, 2), err => {
+      fs.writeFile("Develop/db/db.json", JSON.stringify(newAllNotes, null, 2), err => {
         if (err) throw err;
         res.send(db);
         console.log("Note deleted!")
