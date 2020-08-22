@@ -25,7 +25,7 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Deployed App
 
-View the deployed app here: [heroku link here]
+View the deployed app here: [https://hidden-headland-99989.herokuapp.com/]
 
 
 
