@@ -25,13 +25,18 @@
     "text": "this is another new note"
   },
   {
-    "id": "b37792ff-084c-471b-bccb-624a44c11f09",
-    "title": "New Note",
-    "text": "This is a new note"
-  },
-  {
     "id": "2525ce02-d24d-4808-8a4d-98926f0f3b65",
     "title": "Adding a new note",
     "text": "this is new"
+  },
+  {
+    "id": "da0d2ab4-f460-4410-aed5-75dca0598eda",
+    "title": "another new note",
+    "text": "this is another new note"
+  },
+  {
+    "id": "fcb57adf-4689-4d82-b3d0-19abebde3cc5",
+    "title": "testing out uuid",
+    "text": "testing out uuid"
   }
 ]
